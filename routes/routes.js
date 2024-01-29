@@ -1,7 +1,7 @@
 const router = require('express');
 
-const {authentication} = require('./routes/Authentication/auth');
-const {transactions} = require('./routes/Transaction/transaction');
+const {authentication} = require('./Authentication/auth');
+const {transactions} = require('./Transaction/transaction');
 
 const Router = router.Router();
 
