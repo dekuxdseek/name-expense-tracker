@@ -10,6 +10,7 @@ app.use(express.json());
 
 app.use(allRoutes);
 
+
 // app.get('/', (req, res) =>{
 //     res.send('all transactions in format {date: [transactions]}');
 // });

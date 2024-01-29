@@ -15,8 +15,8 @@ const addTransaction = async(req, res)=>{
 
     await newTransaction.save();
 
-    let token = req.headers["authorization"];
-    token = token.slice(7);
+    let bearerToken = req.headers["authorization"];
+    let token = bearerToken.slice(7);
 
     let userData = jwt.decode(token);
 
