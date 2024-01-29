@@ -4,10 +4,10 @@
 
 # features:
 
-- [ ] user can signup/login
+- [x] user can signup/login
 
-- [ ] user can add transactions(credit/debit)
+- [x] user can add transactions(credit/debit)
 
-- [ ] user can delete transactions, edit transactions
+- [x] user can delete transactions, edit transactions
 
 - [ ] user can see daily, monthly , annualy spent, recieved
